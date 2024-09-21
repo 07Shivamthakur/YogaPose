@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import chair from './chair.jpg'
+import cobra from './cobra.jpg'
+import dog from './dog.jpg'
+import tree from './tree.jpg'
+import warrior from './warrior.jpg'
+import traingle from './traingle.jpg'
+import shoulderstand from './shoulderstand.jpg'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export const poseImages = {
+    Tree: tree,
+    Cobra: cobra,
+    Dog: dog,
+    Warrior: warrior,
+    Chair: chair,
+    Traingle: traingle,
+    Shoulderstand: shoulderstand
+} 
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+ 
